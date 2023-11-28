@@ -1,0 +1,226 @@
+
+
+.navbar-custom {
+    background-color: #5D8AA8;
+  }
+  
+  .navbar-custom .navbar-brand {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .navbar-custom .navbar-toggler-icon {
+    background-color: #ffffff;
+  }
+  
+  .navbar-custom .navbar-toggler {
+    border-color: #ffffff;
+  }
+  
+  .navbar-custom .navbar-toggler:focus,
+  .navbar-custom .navbar-toggler:hover {
+    background-color: #ffffff;
+  }
+  
+  .navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+    font-family: 'Your Custom Font', sans-serif; /* Add your custom font here */
+  }
+  
+  /* style.css */
+
+/* Add this style to make the bars icon white */
+.navbar-toggler-icon-white {
+  color: #ffffff; /* Set the color to white */
+}
+
+
+.image-container {
+  position: relative;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Дополнительные стили для навбара */
+
+/* Дополнительные стили для контента страницы */
+.container {
+  margin-top: 200px; /* Установите отступ сверху, чтобы контент начинался ниже изображения */
+}
+
+
+/* style.css */
+
+body {
+  min-height: 100vh; /* Set minimum height of the body to 100% of the viewport height */
+  margin: 0; /* Remove default margin to ensure full height */
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* style.css */
+
+/* Дополнительные стили для карточек */
+.cards-holder {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Добавлен отступ сверху для разделения контента и карточек */
+  margin-bottom: 150px; /* Новый отступ между текстом о зрении и информацией об авторе */
+
+}
+
+.card {
+  width: 349px;
+  box-shadow: 10px 10px 40px 20px #0000001A;
+  margin-right: 50px;
+  margin-left: 50px;
+  background-color: #fff;
+  margin-top: 450px; /* Уменьшил отрицательный отступ, чтобы не перекрывать контент */
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+}
+
+.card-img {
+  size: 1px;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+}
+
+.card-desc {
+  text-align: center;
+  margin-top: 20px; /* Добавил отступ для выравнивания кнопок */
+}
+
+/* Дополнительные стили для кнопок внутри карточек */
+.card-button {
+  background-color: #5D8AA8;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card-button:hover {
+  background-color: #33435a;
+}
+
+
+.vision-text {
+  text-align: justify;
+  margin-top: 500px;
+  margin-bottom: 70px; /* Новый отступ между текстом о зрении и информацией об авторе */
+  max-width: 1000px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the text horizontally */
+}
+
+
+
+
+.vision-text p {
+  font-size: 20px;
+  color: #474444; /* Цвет текста */
+}
+
+
+
+
+.author-info {
+  display: flex;
+  justify-content: left;
+  margin-top: 100px; /* Новый отступ сверху для информации об авторе */
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+
+.author-image {
+  margin-right: 20px;
+}
+
+.author-image img {
+  width: 150px; /* Увеличьте ширину изображения по вашему желанию */
+  height: 150px; /* Увеличьте высоту изображения по вашему желанию */
+  border-radius: 50%; /* Добавляет круглую форму для изображения */
+}
+
+
+
+
+.main-content {
+  flex: 1;
+}
+
+footer {
+  background-color: #ececec;
+  color: #333333;
+  padding: 5px; /* Increase padding for better visibility */
+  text-align: center;
+  font-size: 14px;
+  width: 100%;
+}
+
+
+
+
+
+.text{
+  margin-top: 50px;
+  margin-bottom: 70px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 20px;
+  color: #474444;
+}
+
+.header{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 25px;
+  font-size: 70px;
+}
+
+/* style.css */
+
+/* Other styles ... */
+
+.vision-glasses {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0; /* Add some margin for spacing */
+}
+
+.vision-photo {
+  max-width: 45%; /* Adjust the width of the photo container */
+}
+
+.vision-info {
+  max-width: 50%; /* Adjust the width of the information container */
+}
+
+.vision-info h2 {
+  font-family: 'Poppins', sans-serif; /* Apply the Poppins font to the heading */
+  color: #5D8AA8; /* Adjust the color as needed */
+}
+
+.vision-info p {
+  font-family: 'Poppins', sans-serif; /* Apply the Poppins font to the paragraph */
+  text-align: justify;
+}
+
+
+
